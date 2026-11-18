@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <title> Employee Form </title>
+        <style>
+        body {background-color: #ffffe0;}
+        </style>
+    </head>
+    <body>
+        <h2> Employee Registration Form </h2>
+        <form>
+            <label for="ename">Employee Name:</label>
+            <input type="text" name="ename" placeholder="Enter your name">
+            <br><br>
+            <label for="epass">Password:</label>
+            <input type="password" name="epass">
+            <br><br>
+            <label for="eemail">Email:</label>
+            <input type="email" name="eemail" required>
+            <br><br>
+            <label for="emobile">Mobile Number:</label>
+            <input type="tel" name="emobile">
+            <br><br>
+            <label for="eage">Age:</label>
+            <input type="number" name="eage">
+            <br><br>
+            <label for="edob">Date of Birth:</label>
+            <input type="date" name="edob">
+            <br><br>
+            <label for="etime">Preferred Interview Time:</label>
+            <input type="time" name="etime">
+            <br><br>
+            <label> Gender: </label>
+            <input type="radio" name="gender">Male
+            <input type="radio" name="gender">Female
+            <br><br>
+            <label> Skills: </label>
+            <input type="checkbox" name="skills">HTML
+            <input type="checkbox" name="skills">JavaScript
+            <input type="checkbox" name="skills">CSS
+            <br><br>
+            <label> Department: </label>
+            <select name="Department">
+            <option>HR</option>
+            <option>Engineering</option>
+            <option>Sales</option>
+            <option>Marketing</option>
+            </select>
+            <br><br>
+            <label for="eresume">Upload Resume:</label>
+            <input type="file" name="resume">
+            <br><br>
+            <label for="eaddress">Address:</label>
+            <textarea name="address" placeholder="Enter your address"></textarea>
+            <br><br>
+            <label for="elinkedin">LinkedIn Profile:</label>
+            <input type="text" name="linkedin" placeholder="Enter LinkedIn URL">
+            <input type="submit" value="Register">
+            <input type="reset" value="reset">
+
+        </form>
+    </body>
+</html>
